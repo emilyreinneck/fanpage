@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.container {
+  background-color: #f1eeeb;
+  font-family: Raleway;
+}
+
+body {
+  /* color of body background */
+  background-color: #f1eeeb;
+}
+
+.row {
+  display: flex;
+  /* color of header background */
+  background-color: #b26829;
+  height: 175px;
+}
+
+.column {
+  flex: 20%;
+  margin: 1%;
+  text-align: center;
+  /* color of header text */
+  color: #3b443b;
+  text-shadow: 0px 0px 15px #e4cfb4;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 200px;
+  margin-left: -200px;
+}
+
+.contact {
+  text-align: right;
+}
+
+.instagram {
+  margin: 5px;
+  padding: 12px;
+  text-shadow: 2px 2px 2px #D98452;
+}
+
+.facebook {
+  margin: 5px;
+  padding: 12px;
+  text-shadow: 2px 2px 2px #D98452;
+  border-radius: 50px;
+}
+
+.youtube {
+  margin: 5px;
+  padding: 12px;
+  text-shadow: 2px 2px 2px #D98452;
+  border-radius: 50px;
+}
+
+.column a {
+  /* color of header text */
+  color: #3b443b;
+}
+
+.column2 a {
+  /* color of menu bar text */
+  color: #6d7d86;
+}
+
+.menu {
+  display: flex;
+  /* color of menu bar background */
+  background-color: #e4cfb4;
+}
+
+.column2 {
+  flex: 25%;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.music-content {
+  display: flex;
+  padding: 100px;
+}
+
+.song {
+  width: 100%;
+}
+
+.song1 {
+  margin: 20px;
+  flex: 50%;
+  box-shadow: -5px -5px 5px #C8c7c5;
+}
+
+.content {
+  color: #3b443b;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about {
+  padding: 50px;
+}
+
+.sep24 {
+  display: flex;
+  background-color: #BFCDD9;
+  margin: 20px;
+  color: #3b443b;
+}
+
+.date {
+  flex: 40%;
+  margin: 40px;
+}
+
+.tour-info {
+  flex: 40%;
+  margin: 40px;
+  text-align: center;
+}
+
+.video1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.header {
+  text-align: center;
+  color: #3b443b;
+  padding-top: 50px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
